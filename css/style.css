@@ -20,6 +20,10 @@
     padding: 20px;
 }
 
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
 ul{
     list-style: none;
 }
@@ -84,4 +88,19 @@ a{
     margin: 0 auto;
 }
 
+/* MAIN */
 
+/* debug */
+.large-box, .small-box{
+    height: 300px;
+}
+
+.large-box{
+    background-color: #1E90FF;
+    width: 60%;
+}
+
+.small-box{
+    background-color: #FFC0CB;
+    width: 40%;
+}
