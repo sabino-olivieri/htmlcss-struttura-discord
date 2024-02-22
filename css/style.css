@@ -9,11 +9,15 @@
 
 .container{
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
 }
 
 .flex{
     display: flex;
+}
+
+.pd20{
+    padding: 20px;
 }
 
 ul{
@@ -27,6 +31,7 @@ a{
 
 /* HEADER */
 
+/* header-top */
 .header-top{
     background-color: #ADD8E6;
     
@@ -64,6 +69,19 @@ a{
     justify-content: center;
     gap: 10px;
 
+}
+
+/* header-bottom */
+
+.header-bottom{
+    background-color: #00008B;
+}
+
+.box-header{
+    background-color: #EE82EE;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
 }
 
 
