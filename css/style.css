@@ -5,6 +5,25 @@
     box-sizing: border-box;
 }
 
+/* debug */
+.large-box, .small-box{
+    height: 300px;
+}
+
+.big-box{
+    height: 500px;
+}
+
+.box-header, 
+.large-box, 
+.small-box, 
+.big-box,
+.large-col{
+    border: 1px dashed black;
+}
+
+/* /debug */
+
 /* COMMON */
 
 .container{
@@ -17,7 +36,7 @@
 }
 
 .pd20{
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .bg-grey{
@@ -90,16 +109,7 @@ a{
 
 /* MAIN */
 
-/* debug */
-.large-box, .small-box{
-    height: 300px;
-}
 
-.big-box{
-    height: 500px;
-}
-
-/* /debug */
 
 .large-box{
     background-color: #1E90FF;
@@ -113,4 +123,36 @@ a{
 
 .big-box{
     background-color: #228B22;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #23272A;
+
+}
+
+.pdfooter{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.large-col{
+    width: calc(100% / 5 * 2);
+    background-color: #F08080;
+    /* debug */
+    height: 400px;
+}
+
+.small-col{
+    width: calc(100% / 5);
+    background-color: #20B2AA;
+    /* debug */
+    border: 1px dashed white;
+}
+
+hr{
+    background-color: white;
+    height: 5px;
+
 }
