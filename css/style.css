@@ -18,7 +18,9 @@
 .large-box, 
 .small-box, 
 .big-box,
-.large-col{
+.large-col,
+.logo-ft,
+button{
     border: 1px dashed black;
 }
 
@@ -127,6 +129,8 @@ a{
 
 /* FOOTER */
 
+/* footer-top */
+
 footer{
     background-color: #23272A;
 
@@ -153,6 +157,23 @@ footer{
 
 hr{
     background-color: white;
-    height: 5px;
+    height: 2px;
+
+}
+
+/* footer-bottom */
+.footer-bottom{
+    padding-top: 20px;
+}
+
+.footer-bottom > div{
+    background-color: #7FFFD4;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.logo-ft, button{
+    padding: 2px;
+    background-color: #FFB6C1;
 
 }
