@@ -95,6 +95,12 @@ a{
     height: 300px;
 }
 
+.big-box{
+    height: 500px;
+}
+
+/* /debug */
+
 .large-box{
     background-color: #1E90FF;
     width: 60%;
@@ -103,4 +109,8 @@ a{
 .small-box{
     background-color: #FFC0CB;
     width: 40%;
+}
+
+.big-box{
+    background-color: #228B22;
 }
